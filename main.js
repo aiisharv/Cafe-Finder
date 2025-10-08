@@ -1,4 +1,4 @@
-const apiKey = "STRING_OF_RANDOM_CHARACTERS_HERE";
+const apiKey = window.__GOOGLE_MAPS_API_KEY__ || "YOUR_RESTRICTED_KEY_HERE";
 const useProxy = true;
 const proxy = "https://cors-anywhere.herokuapp.com/";
 
